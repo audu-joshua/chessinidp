@@ -45,7 +45,13 @@ const ChessProgramsSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-full">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">Our Programs</h2>
+            <h2 className="text-3xl pb-2 font-bold tracking-tighter sm:text-4xl md:text-5xl text-white" style={{
+            background: "linear-gradient(120deg, #ffffff, #e0e0e0)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
+            animation: "shine 3s linear infinite",
+          }}>Our Programs</h2>
             <p className="max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Discover how we're using chess to transform communities and empower individuals.
             </p>
