@@ -50,7 +50,7 @@ const QueenSVGLoader = ({ progress }: QueenSVGLoaderProps) => {
   const wavePosition = 120 - (progress * 1.2);
   
   return (
-    <div className="relative h-full w-full">
+    <div className="relative h-full w-full overflow-hidden">
       <svg 
         width="100%" 
         height="100%" 
