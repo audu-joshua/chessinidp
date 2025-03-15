@@ -58,10 +58,13 @@ const ChessProgramsSection = () => {
           </div>
         </div>
         <div className="mx-auto grid grid-cols-1 gap-8 py-12 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-          <Card 
-            ref={el => cardsRef.current[0] = el} 
-            className="program-card bg-black border-white/10 transition-all duration-500 hover:bg-zinc-800"
-          >
+        <Card 
+  ref={(el) => {
+    cardsRef.current[0] = el;
+  }}
+  className="program-card bg-black border-white/10 transition-all duration-500 hover:bg-zinc-800"
+>
+
             <CardHeader>
               <CardTitle className="text-white">School Programs</CardTitle>
               <CardDescription className="text-gray-400">Chess in the classroom</CardDescription>
@@ -88,9 +91,12 @@ const ChessProgramsSection = () => {
             </CardFooter>
           </Card>
           <Card 
-            ref={el => cardsRef.current[1] = el} 
-            className="program-card bg-black border-white/10 transition-all duration-500 hover:bg-zinc-800"
-          >
+  ref={(el) => {
+    cardsRef.current[1] = el;
+  }}
+  className="program-card bg-black border-white/10 transition-all duration-500 hover:bg-zinc-800"
+>
+
             <CardHeader>
               <CardTitle className="text-white">Community Outreach</CardTitle>
               <CardDescription className="text-gray-400">Chess for everyone</CardDescription>
@@ -117,9 +123,12 @@ const ChessProgramsSection = () => {
             </CardFooter>
           </Card>
           <Card 
-            ref={el => cardsRef.current[2] = el} 
-            className="program-card bg-black border-white/10 transition-all duration-500 hover:bg-zinc-800"
-          >
+  ref={(el) => {
+    cardsRef.current[0] = el;
+  }}
+  className="program-card bg-black border-white/10 transition-all duration-500 hover:bg-zinc-800"
+>
+
             <CardHeader>
               <CardTitle className="text-white">Competitive Training</CardTitle>
               <CardDescription className="text-gray-400">Chess excellence</CardDescription>
