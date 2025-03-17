@@ -13,7 +13,7 @@ const HeroCarousel = () => {
   // Carousel images
   const images = [
     {
-      src: "/v1.jpg",
+      src: "/V1.jpg",
       alt: "Students playing chess",
     },
     {
