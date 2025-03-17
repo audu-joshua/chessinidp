@@ -17,7 +17,7 @@ export default function SiteHeader() {
             height={32}
             className="text-primary pt-10"
           />
-          <span className="font-bold text-primary text-white">QueenV Academy</span>
+          <span className="font-bold text-primary text-white">QueenV <span className="hidden md:block">Academy</span></span>
         </Link>
         <nav className="ml-auto hidden md:flex gap-6">
   <Link
