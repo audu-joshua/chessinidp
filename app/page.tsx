@@ -15,7 +15,7 @@ export default function Home() {
     {
       src: "/v7.jpeg",
       alt: "Chess tournament in progress",
-      title: "Tonde Onakoya And our IDP Kids",
+      title: "Tonde Onakoya And our IDP Kid",
     },
     {
       src: "/v11.jpeg",
